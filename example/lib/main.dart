@@ -1,4 +1,4 @@
-import 'package:animated_border/animated_border.dart';
+import 'package:flutter_animated_border/flutter_animated_border.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 

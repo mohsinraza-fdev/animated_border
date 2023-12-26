@@ -5,7 +5,7 @@ import 'dart:ui';
 import 'package:flutter/material.dart';
 
 /// Animated Border.
-class AnimatedBorder extends StatefulWidget {
+class FlutterAnimatedBorder extends StatefulWidget {
   final AnimatedBorderController? controller;
   final bool glow;
   final double glowSpread;
@@ -23,7 +23,7 @@ class AnimatedBorder extends StatefulWidget {
   final AnimatedBorderSegments? reverseAnimationSegments;
   final Widget child;
 
-  AnimatedBorder({
+  FlutterAnimatedBorder({
     super.key,
     this.controller,
     this.glow = true,
@@ -66,10 +66,10 @@ class AnimatedBorder extends StatefulWidget {
   }
 
   @override
-  State<AnimatedBorder> createState() => _AnimatedBorderState();
+  State<FlutterAnimatedBorder> createState() => _FlutterAnimatedBorderState();
 }
 
-class _AnimatedBorderState extends State<AnimatedBorder> with SingleTickerProviderStateMixin {
+class _FlutterAnimatedBorderState extends State<FlutterAnimatedBorder> with SingleTickerProviderStateMixin {
   late (double, double) Function() getDimens;
   double parentHeight = 0;
   double parentWidth = 0;
@@ -463,7 +463,7 @@ class _AnimatedBorderState extends State<AnimatedBorder> with SingleTickerProvid
 }
 
 class AnimatedBorderController {
-  _AnimatedBorderState? _state;
+  _FlutterAnimatedBorderState? _state;
 
   startAnimation() {
     _state?._startAnimation();

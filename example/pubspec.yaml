@@ -37,7 +37,7 @@ dependencies:
   cupertino_icons: ^1.0.2
 
   # Include animated_border as dependency
-  animated_border:
+  flutter_animated_border:
     path: ../
 
 dev_dependencies:

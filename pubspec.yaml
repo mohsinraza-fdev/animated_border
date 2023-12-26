@@ -1,6 +1,6 @@
-name: animated_border
+name: flutter_animated_border
 description: Elevate your Flutter app's UI with Animated Border – a captivating animated border that gracefully rotates around a widget. Add multiple colors and instantly boost your app's visual appeal.
-version: 0.0.1
+version: 0.0.2
 homepage:
 
 environment:
